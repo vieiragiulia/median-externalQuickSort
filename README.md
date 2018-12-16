@@ -3,7 +3,7 @@ this takes a matrix of integers and gives you the average and median of each lin
 to get the median I used external Quicksort.
 
 Here the input needs to be ./tp3 input.txt output.txt LIM_M as LIM_M is the number of Mb available to use in the program
-if you don't use LIM_M it will assume it is 2 and may take to long to process the input file needs to have, on it first line m and n for a matrix mxn. On the next m lines the n elements of it, separated by space.
+if you don't use LIM_M it will assume it can only fit 2 integers at a time and may take to long to process the input file needs to have, on it first line m and n for a matrix mxn. On the next m lines the n elements of it, separated by space.
 
 The output is [average],[median] for each line, then [total average] on an extra line of the new file.
 
